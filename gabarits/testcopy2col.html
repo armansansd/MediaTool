@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    #mainpipe {
+    width: 200px;
+    height: 200px;
+        background-color: hotpink;
+}
+#runoff {
+width: 600px;
+background-color: darkslategrey;
+margin-left: 30px;
+margin-top: 100px;
+}
+
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+var partOne = $('#mainpipe').text().substring(0, 500);
+var partTwo = $('#mainpipe').text().substring(1500, $('#mainpipe').text().length - 1);
+$('#mainpipe').html(partOne);
+$('#runoff').html(partTwo );
+
+});//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <div id="mainpipe">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo erat, viverra aliquam malesuada at, commodo et risus. Morbi eu lacus eget arcu hendrerit pellentesque nec non nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula nulla vulputate quam posuere placerat. Etiam eu dapibus nunc. Pellentesque nisl tortor, imperdiet ut convallis sit amet, auctor eget lorem. Praesent justo risus, tempus tincidunt pharetra vel, dictum id nisl.
+
+Phasellus cursus eros eget lorem euismod consequat. Nam sit amet justo purus, quis sodales quam. Maecenas suscipit urna vitae dui viverra nec imperdiet tortor dapibus. Cras consequat mi et leo fringilla euismod. Suspendisse blandit lorem ut velit viverra in ultrices libero malesuada. Proin adipiscing est sit amet velit pretium vitae aliquam neque fermentum. Sed non felis massa, eu cursus magna.
+
+Donec eget eros felis. Fusce risus nisi, sodales a tempus vitae, dictum ut nunc. Pellentesque vehicula purus in dui euismod eget vestibulum lacus sollicitudin. Nulla consectetur ultrices suscipit. Nam at lorem mauris. Sed ut lacus risus. Maecenas consequat porttitor orci vel facilisis. Nulla tempus ipsum nec magna gravida condimentum. Quisque sem urna, placerat at euismod vel, dapibus eget eros. Curabitur cursus, sapien ac iaculis gravida, velit ipsum malesuada ligula, quis interdum nunc risus ut magna. Nulla lobortis orci at ante bibendum aliquet at sed diam.
+
+Praesent vulputate neque eu purus tempor laoreet. Sed lacinia leo metus. Nulla nec magna at turpis tristique volutpat. Suspendisse eget tortor ac nisi pretium semper. In hac habitasse platea dictumst. Etiam egestas mauris quis sem euismod id placerat lectus congue. Curabitur risus enim, porta sit amet pulvinar in, cursus vel ipsum. Vestibulum ut viverra lectus. In quam ligula, luctus nec tempus sed, euismod in tellus. Ut varius eleifend elementum. Suspendisse pulvinar metus ut orci vestibulum non interdum ante vulputate. Morbi cursus pellentesque arcu, nec semper justo luctus nec. Ut tincidunt ornare orci, posuere euismod nisl laoreet in.
+
+Nam dignissim vestibulum sapien vel fringilla. In eu purus nunc. Ut ac nisi nec tortor sagittis blandit. In aliquam sollicitudin pulvinar. Sed semper rhoncus vulputate. Ut id urna vitae nibh condimentum semper. Suspendisse in ipsum arcu, sit amet gravida elit. Duis dignissim mi mattis tellus aliquet vehicula. Vivamus luctus velit nec mi ullamcorper et congue elit ultrices. Fusce blandit eleifend libero, et laoreet justo consequat sit amet. Curabitur tortor orci, semper nec pellentesque ut, elementum et arcu. 
+</div>
+<div id="runoff">
+</div>
+  
+</body>
+
+
+</html>
+

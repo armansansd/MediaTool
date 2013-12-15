@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/01_css_index.css" media="screen"/>
+
+	<script type="text/javascript">
+		//sources preslivre
+		function changeSrcA401(){
+			document.getElementById("iframe").src="gabarits/01_gabarit_presLivre_A4.html";
+		}
+		function changeSrcA301(){
+			document.getElementById("iframe").src="gabarits/02_gabarit_presLivre_A3.html";
+		}
+
+		//sources evenement
+		function changeSrcA402(){
+			document.getElementById("iframe").src="gabarits/03_gabarit_event_A4.html";
+		}
+		function changeSrcA302(){
+			document.getElementById("iframe").src="gabarits/04_gabarit_event_A3.html";
+		}
+
+		//sources info
+		function changeSrcA403(){
+			document.getElementById("iframe").src="gabarits/05_gabarit_info_A4.html";
+		}
+		function changeSrcA303(){
+			document.getElementById("iframe").src="gabarits/06_gabarit_info_A3.html";
+		}
+
+
+		//astuce
+		$(document).ready(function(){
+  			$(".how").click(function(){
+    			$("#astuce-content").toggle();	
+    			//$("#astuce-content").slideDown("slow");
+
+  			});
+		});
+		//menu 
+		$(document).ready(function(){
+  			$(".openM").click(function(){
+    			$("#menu1").toggle();
+    			$("#menu2").toggle();
+    			$("#menu3").toggle();
+    			$("#format1").hide();
+    			$("#format2").hide()
+    			$("#format3").hide()
+    			//$("#astuce-content").slideDown("slow");
+  			});
+		});
+		//format
+		$(document).ready(function(){
+  			$(".selection").click(function(){
+    			$("#format1").toggle();
+    			$("#format2").hide();
+    			$("#format3").hide();
+  			});
+		});	
+		$(document).ready(function(){
+  			$(".evenement").click(function(){
+				$("#format1").hide();
+    			$("#format2").toggle();
+    			$("#format3").hide();
+  			});
+		});
+		$(document).ready(function(){
+  			$(".info").click(function(){
+				$("#format1").hide();
+    			$("#format2").hide();
+    			$("#format3").toggle();
+  			});
+		});
+
+    </script>
+
+	</head>
+	<body>
+		<div id="index-content">
+			<div id="menu-content">
+				<div id="mediaT"> <a class="openM" href="#">Outil Médiathèque</a> </div>
+				<div id="menu1">
+					<a class="selection" href="#">Sélection d'ouvrages</a>
+				</div>
+				<div id="format1"> 
+					<a class="A4-01" href="#" onClick="changeSrcA401()">format A4</a>
+				</br>
+					<a class="A3-01" href="#" onClick="changeSrcA301()">format A3</a>
+				</div>
+
+				<div id="menu2">
+					<a class="evenement" href="#">Évènement</a>
+				</div>
+				<div id="format2">
+					<a class="A4-02" href="#" onClick="changeSrcA402()">format A4</a>
+				</br>
+					<a class="A3-02" href="#" onClick="changeSrcA302()">format A3</a>
+				</div>
+
+				<div id="menu3">
+					<a class="info" href="#">Informations générales</a>
+				</div>
+				<div id="format3">
+					<a class="A4-03" href="#" onClick="changeSrcA403()">format A4</a>
+				</br>
+					<a class="A3-03" href="#" onClick="changeSrcA303()">format A3</a>
+				</div>
+
+			</div>
+			<div id="astuce-ico"><a class="how" href="#">?</a></div>
+			<div id="astuce-content">
+				<h1>Mode d'emploi</h1>
+				<p>Sélectionnez le type de document que vous souhaitez, puis son format, A4 ou A3.
+				</p>
+				<p>Pour remplir un champ avec les informations correspondantes, cliquez dessus.
+				</p>
+				<p>Privilégiez, en cas de manque de place, les données indispensables (titre, auteur…) quite à n’avoir plus de texte courant.
+				</br>À l’écriture des titres et tant que faire se peut, retournez à la ligne avant des mots comme “de”, “un” ou  “le”. Pensez également aux espaces avant les signes de ponctuation doubles.
+				</p>
+				<p>Une fois rempli, le document peut être enregistré au format PDF afin d'être imprimé directement, en cliquant sur le bouton prévu à cet effet. Il suffit ensuite de changer la Destination d'impression pour “PDFCreator”. 
+				</br>Vérifiez bien auparavant, grâce au pictogramme en bas de page, le type de papier à placer dans le bac de l’imprimante : blanc, ocre ou bleu, A4 ou A3.
+				</br>Pour ce dernier, veillez à présicer le format au pilote de l'imprimante au moment de l'impression et à demander l'ajustement au format.
+				</p>
+				<p>N’hésitez pas, en cas d'information urgente ou exceptionnelle, à utiliser le papier de couleur rouge.</p>
+			</div>
+			<iframe src="" id="iframe" scrolling="no" frameborder="0">
+		
+		</div>
+
+	</body>
+</html>

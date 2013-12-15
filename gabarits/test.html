@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	 <!--<script type="text/javascript">
+	 	function printFrame(){
+			window.print();
+		}
+		$('textarea').autoResize();
+	 </script-->
+	 <style type="text/css" media="all">
+			/* Styles for all media */
+			#print_helper {
+			  display: none;
+			}
+			</style>
+<style type="text/css" media="print">
+			/* Styles for print (include this after the above) */
+			#print_helper { 
+			    display: block;
+			    overflow: visible;
+			    font-family: "AcademySans-Bold"
+			    white-space: pre;
+			    white-space: pre-wrap;
+			}
+			#the_textarea {
+			  display: none;
+			}
+
+	 /*@media print{
+		 textarea.titre{ 
+				resize:vertical;
+				border-style:none;
+				width: 200px;
+				margin-top:40px;
+				margin-left: 30px;
+				overflow:hidden;
+				font-family:"AcademySans-Bold";
+				font-size: 70px;
+			}
+	}*/
+	</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+  function copy_to_print_helper(){
+    $('#print_helper').text($('#the_textarea').val());
+  }
+  $('#the_textarea').bind('keydown keyup keypress cut copy past blur change', function(){
+    copy_to_print_helper(); // consider debouncing this to avoid slowdowns!
+  });
+  copy_to_print_helper(); // on initial page load
+});
+</script>
+	</head>
+	<body>
+				<TEXTAREA id="the_textarea" name="textarea" wrap="wrap">Titre</TEXTAREA>
+				<div id="print_helper"></div>
+	</body>
+
+</html>

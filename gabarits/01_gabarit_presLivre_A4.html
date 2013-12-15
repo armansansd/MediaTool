@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.autosize.js"></script>
+	<script type="text/javascript" src="../js/jqueryAutoSizeDiv.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/02_css_gabarit.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../css/01_cssPrintA4.css" media="print"/>
+	
+	</head>
+	<body>
+		<div id="zone">
+			<div id="page">
+				<div id="titre" rows=1><span contenteditable="true">Titre</span></div>
+				<div id="auteur" rows=1><span contenteditable="true">Auteur</span></div>
+				<div id="date" rows=1 ><span contenteditable="true">date</span></div>
+				<div id="informations">
+					<div id="informations_gauche1" rows=1><span contenteditable="true">maison d’édition</span></div>
+					<div id="informations_droite1" rows=1><span contenteditable="true">numéro de cote</span></div>
+					<div id="informations_gauche2" rows=1><span contenteditable="true">format</span></div>
+					<div id="informations_droite2" rows=1><span contenteditable="true">thème (étagère)</span></div>
+					<div id="informations_gauche3" rows=1><span contenteditable="true">nombre de pages</span></div>
+					<div id="informations_droite3" rows=1><span contenteditable="true">étage</span></div>
+					<div id="informations_gauche4" rows=1><span contenteditable="true">n°ISBN</span></div>
+				</div><br>
+				<div id="resume" rows=1><span contenteditable="true">Éventuel résumé ou commentaire</span></div>
+			</div>
+			<div id="imprimer"><a href="#" onclick="printFrame()"><img src="../img/imprimer.jpg" onmouseover="src='../img/imprimer.gif'" onmouseout="src='../img/imprimer.jpg'"/></a><br/>
+				Imprimer
+			</div>
+
+			<div id="pictofeuille"><img src="../img/A4_jaune.jpg"></div>
+		</div>
+
+	</body>
+
+</html>

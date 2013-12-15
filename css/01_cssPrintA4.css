@@ -1,0 +1,341 @@
+
+
+@media print {
+	@page{size: A4;}
+
+		/* book Presentation A4*/
+
+		@font-face {
+		    font-family: "AcademySans-Bold";
+		    src: url('../Mediatheque_font/Academy Sans-Bold Playtype.otf');
+		    
+		}
+		@font-face {
+			font-family: "AcademySans";
+		    src: url('../Mediatheque_font/Academy Sans Playtype.otf');
+
+		}
+		@font-face {
+			font-family: "FestivalMediatheque";
+		    src: url('../Mediatheque_font/FestivalMediatheque.ttf');
+
+		}
+
+			#titre{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			height:auto;
+			margin-top:70px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			text-decoration: underline;
+		}
+
+		#auteur{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			height:auto;
+			margin-top:50px;
+			margin-left: 60px;
+			font-family:"AcademySans-Bold";
+			font-size: 130px; 
+		}
+
+		#date{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			hheight:auto;
+			margin-top:50px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px; 
+		}
+
+		#informations_gauche1 {
+			float:left;
+			position: relative;
+			border: none;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+
+		#informations_gauche2 {
+			 float:left;
+			position: relative;
+			border: none;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+		#informations_gauche3 {
+			float:left;
+			position: relative;
+			border: none;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+		#informations_gauche4 {
+			float:left;
+			position: relative;
+			border: none;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px;
+		}
+
+		#informations_droite1 {
+			 float:right;
+			border: none;
+			position: relative;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+		#informations_droite2 {
+			 float:right;
+			border: none;
+			position: relative;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+		#informations_droite3 {
+			 float:right;
+			border: none;
+			position: relative;
+			width: 45%;
+			height:auto;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 28px; 
+		}
+
+		#informations{ 
+			resize:vertical;
+			width: 990px;
+			margin-top:50px;
+			margin-left: 60px;
+			margin-bottom: 2em;
+		}
+
+		#resume{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			height:auto;
+			margin-top:170px;
+			margin-left: 60px;
+			font-family:"FestivalMediatheque";
+			font-size: 48px; 
+		}
+
+		#imprimer{
+			width:130px;
+			height:90px;
+			margin-top:110px;
+			float:left;
+			font-family:"AcademySans-Bold";
+			font-size: 18px;
+			display:none;
+			/*background-color: red;*/
+		}
+		
+		#pictofeuille{
+			width:130px;
+			height:90px;
+			margin-top:110px;
+			margin-left:90px;
+			float:left;
+			display:none;
+		}
+
+		#zone{
+			width:1684px;
+			height:2100px;
+			/*background-color: blue;*/
+		}
+
+		#page{
+			width:1190px;
+			height:1684px;
+			border-style:none;
+			border-color:#000;
+			margin-bottom: 90px;
+			}
+
+
+
+
+
+
+
+/* Event A4 */
+
+		#type3{
+			resize:vertical;
+			border: none;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:120px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+
+		#intervenant3{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			height:auto;
+			margin-top:90px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+		#titre3{
+			resize:vertical;
+			border: none;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:90px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			text-decoration: underline;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+		#date3{
+			resize:vertical;
+			border: none;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:90px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+
+		#horaire3{
+			border: none;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:90px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+		#lieu3{
+			border: none;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:90px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}	
+
+		#page3{
+			width:1190px;
+			height:1684px;
+			border-style:none;
+			border-color:#000;
+			margin-bottom: 90px;
+			}
+
+
+
+
+
+/* Info A4 */
+
+		#titre5{
+			resize:vertical;
+			border: none;
+			width: 990px;
+			height:auto;
+			margin-top:120px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"AcademySans-Bold";
+			font-size: 130px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+		#texte5{
+			resize:vertical;
+			/*border: 1px solid;*/
+			width: 990px;
+			height:auto;
+			margin-top:93px;
+			margin-left: 60px;
+			/*overflow:auto;*/
+			font-family:"FestivalMediatheque";
+			font-size: 48px;
+			/*display: block;
+			white-space: pre;*/
+		}
+
+		#page5{
+			width:1190px;
+			height:1684px;
+			border-style:none;
+			border-color:#000;
+			background-color: none;
+			/*margin-bottom: 90px;*/
+			}
+
+
+
