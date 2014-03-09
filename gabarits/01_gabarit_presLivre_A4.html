@@ -8,6 +8,28 @@
 	<script type="text/javascript" src="../js/jqueryAutoSizeDiv.js"></script>
 	<script type="text/javascript">
 
+		$(window).load(function(){
+					/*var partOne = $('#mainpipe').text().substring(0, 30);
+					var partTwo = $('#mainpipe').text().substring(30, $('#mainpipe').text().length - 1);
+					$('#mainpipe').html(partOne);
+					$('#runoff').html(partTwo );*/
+
+					//copie du contenu
+					function copy_to_print_helper(){
+						$('#mainpipe').text($('.texte').val());
+
+						var partOne = $('#mainpipe').text().substring(0, 30);
+						var partTwo = $('#mainpipe').text().substring(30, $('#mainpipe').text().length - 1);
+						$('#mainpipe').html(partOne);
+						$('#runoff').html(partTwo );
+					}
+
+					$('.texte').bind('keydown keyup keypress cut copy past blur change', function(){
+						copy_to_print_helper(); // consider debouncing this to avoid slowdowns!
+					});
+					copy_to_print_helper(); // on initial page load
+				});
+
 	</script>
 	<link rel="stylesheet" type="text/css" href="../css/02_css_gabarit.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="../css/01_cssPrintA4.css" media="print"/>
