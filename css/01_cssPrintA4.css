@@ -56,14 +56,14 @@
 			font-family:"AcademySans-Bold";
 			font-size: 130px; 
 		}
-
+/*
 		#informations_gauche1 {
 			float:left;
 			position: relative;
 			border: none;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
@@ -75,7 +75,7 @@
 			border: none;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
@@ -86,7 +86,7 @@
 			border: none;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
@@ -97,43 +97,62 @@
 			border: none;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px;
 		}
 
 		#informations_droite1 {
-			 float:right;
+			float:right;
 			border: none;
 			position: relative;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
 
 		#informations_droite2 {
-			 float:right;
+			float:right;
 			border: none;
 			position: relative;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
 
 		#informations_droite3 {
-			 float:right;
+			float:right;
 			border: none;
 			position: relative;
 			width: 45%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 28px; 
 		}
+*/
+
+		/*overflow*/
+		.texte{
+			display:none;
+
+		}
+
+		#mainpipe{
+
+		}
+
+		#runoff{
+		
+		}
+	
+
+
+
 
 		#informations{ 
 			resize:vertical;

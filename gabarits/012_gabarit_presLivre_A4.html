@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.autosize.js"></script>
+	<script type="text/javascript" src="../js/jqueryAutoSizeDiv.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/02_css_gabarit.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../css/01_cssPrintA4.css" media="print"/>
+	
+	<script type="text/javascript">
+	/*ici le script dbl over flow et copy to div
+	  ensuite modifier le css, pour créer la dbl col
+	  dans la txtar et créer une dbl col pour le print. 
+
+	*/
+	</script>
+
+
+	</head>
+	<body>
+		<div id="zone">
+			<div id="page">
+				<div id="titre" rows=1><span contenteditable="true">Titre</span></div>
+				<div id="auteur" rows=1><span contenteditable="true">Auteur</span></div>
+				<div id="date" rows=1 ><span contenteditable="true">date</span></div>
+				<div id="informations">
+					<textarea class="texte">
+					maison d'édition
+					cote
+					numeros ISBN
+					</textarea>
+					<div id="mainpipe"></div>
+					<div id="runoff"></div>
+				</div><br>
+				<div id="resume" rows=1><span contenteditable="true">Éventuel résumé ou commentaire</span></div>
+			</div>
+			<div id="imprimer"><a href="#" onclick="printFrame()"><img src="../img/imprimer.jpg" onmouseover="src='../img/imprimer.gif'" onmouseout="src='../img/imprimer.jpg'"/></a><br/>
+				Imprimer
+			</div>
+
+			<div id="pictofeuille"><img src="../img/A4_jaune.jpg"></div>
+		</div>
+
+	</body>
+
+</html>
