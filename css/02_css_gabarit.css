@@ -234,6 +234,17 @@
 
 		/*overflow*/
 		.texte{
+			width:330px;
+			margin-top:30px;
+			margin-left: 30px;
+			border: 1px solid;
+			resize:vertical;
+			-moz-column-width: 130px;
+    		-webkit-column-width: 130px;
+    		-moz-column-gap: 20px;
+    		-webkit-column-gap: 20px;
+    		-moz-column-rule: none;
+    		-webkit-column-rule: none;
 
 		}
 
@@ -261,7 +272,7 @@
 			border: 1px solid;
 			width: 330px;
 			height:auto;
-			margin-top:70px; /*??????????*/
+			margin-top:10px; /*??????????*/
 			margin-left: 30px;
 			
 			background-color: rgb(255,249,201);
