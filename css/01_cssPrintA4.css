@@ -143,10 +143,16 @@
 		}
 
 		#mainpipe{
+			width:130px;
+			height: 10px;
+			background-color: red;
 
 		}
 
 		#runoff{
+			width:130px;
+			height: 10px;
+			background-color: blue;
 		
 		}
 	

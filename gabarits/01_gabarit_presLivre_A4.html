@@ -9,17 +9,13 @@
 	<script type="text/javascript">
 
 		$(window).load(function(){
-					/*var partOne = $('#mainpipe').text().substring(0, 30);
-					var partTwo = $('#mainpipe').text().substring(30, $('#mainpipe').text().length - 1);
-					$('#mainpipe').html(partOne);
-					$('#runoff').html(partTwo );*/
-
+					
 					//copie du contenu
 					function copy_to_print_helper(){
 						$('#mainpipe').text($('.texte').val());
 
-						var partOne = $('#mainpipe').text().substring(0, 30);
-						var partTwo = $('#mainpipe').text().substring(30, $('#mainpipe').text().length - 1);
+						var partOne = $('#mainpipe').text().substring(0, 100);
+						var partTwo = $('#mainpipe').text().substring(100, $('#mainpipe').text().length - 1);
 						$('#mainpipe').html(partOne);
 						$('#runoff').html(partTwo );
 					}
@@ -41,16 +37,18 @@
 				<div id="titre" rows=1><span contenteditable="true">Titre</span></div>
 				<div id="auteur" rows=1><span contenteditable="true">Auteur</span></div>
 				<div id="date" rows=1 ><span contenteditable="true">date</span></div>
-				<div  class="texte"><span contenteditable="true">maison d'édition</br>
-					numéro de cote</br>
-					format</br>
-					thème (étagère)</br>
-					nombre de pages</br>
-					étage</br>
+				<textarea class="texte">
+					maison d'édition
+					numéro de cote
+					format
+					thème (étagère)
+					nombre de pages
+					étage
 					N
-				</span></div><br>
+				</textarea><br>
 				<div id="mainpipe"></div>
 				<div id="runoff"></div>
+
 				<div id="resume" rows=1><span contenteditable="true">Éventuel résumé ou commentaire</span></div>
 			</div>
 			<div id="imprimer"><a href="#" onclick="printFrame()"><img src="../img/imprimer.jpg" onmouseover="src='../img/imprimer.gif'" onmouseout="src='../img/imprimer.jpg'"/></a><br/>

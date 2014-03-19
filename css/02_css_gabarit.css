@@ -233,27 +233,45 @@
 
 
 		/*overflow*/
-		.texte{
+		textarea{
+			resize: none;
 			width:330px;
+			height:90px;
 			margin-top:30px;
 			margin-left: 30px;
 			border: 1px solid;
-			resize:vertical;
 			-moz-column-width: 130px;
     		-webkit-column-width: 130px;
-    		-moz-column-gap: 20px;
-    		-webkit-column-gap: 20px;
     		-moz-column-rule: none;
     		-webkit-column-rule: none;
+    		background-color: rgb(255,249,201);
+    		font-family:"FestivalMediatheque";
+			font-size: 12px;
+			line-height: 10px;
 
 		}
 
 		#mainpipe{
-			display: none;
+			/*display: none;*/
+			width:130px;
+			height: auto;
+			margin-left:30px;
+			float:left;font-family:"FestivalMediatheque";
+			font-size: 12px;
+			line-height: 1.7em;
+			background-color: red;
 		}
 
 		#runoff{
-			display: none;
+			/*display: none;*/
+			width:130px;
+			height: auto;
+			margin-left:40px;
+			float:left;
+			font-family:"FestivalMediatheque";
+			font-size: 12px;
+			line-height: 1.7em;
+			background-color: blue;
 		}
 
 
