@@ -31,7 +31,7 @@
 				$('.informations2_gauche2').autosize();
 				$('.informations2_gauche3').autosize();
 				$('.informations2_gauche4').autosize();
-				$('.resume2').autosize();
+				$('.texte2').autosize();
 			});
 
 	

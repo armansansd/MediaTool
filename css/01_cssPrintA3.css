@@ -172,13 +172,56 @@
 			margin-bottom: 2em;
 		}
 
-		#resume2{
-			width: 1528px;
+		.texte2{ 
+			display: none;
+			/*-moz-column-width: 300px;
+    		-webkit-column-width: 300px;
+    		-moz-column-rule: none;
+    		-webkit-column-rule: none;
+			resize:none;
+			border: 1px solid;
+			width: 713px;
 			height:auto;
-			margin-top:134px;
-			margin-left: 43px;
+			margin-top:70px; /*?*/
+			margin-left: 30px;
+			padding-bottom:10px;
+			background-color: rgb(255,249,201);
 			font-family:"FestivalMediatheque";
-			font-size: 34px;
+			font-size: 16px; */
+		}
+
+
+		#mainpipe2{
+			/*display: none;*/
+
+			width:640px;
+			height: auto;
+			margin-left:0px;
+			margin-top:70px;
+			float:left;
+			font-family:"FestivalMediatheque";
+			font-size: 21px;
+			line-height: 1.5em;
+			background-color: red;
+			white-space: pre-wrap;
+			word-wrap:break-word;
+			word-break:keep-all ;
+		}
+
+		#runoff2{
+			/*display: none;*/
+			width:640px;
+			height: auto;
+			margin-left:20px;
+			margin-top:70px;
+			float:left;
+			font-family:"FestivalMediatheque";
+			font-size: 21px;
+			line-height: 1.5em;
+			background-color: blue;
+			white-space: pre-wrap;
+			word-wrap:break-word;
+			word-break:keep-all ;
 		}
 
 		#page2{
