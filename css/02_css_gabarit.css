@@ -140,7 +140,7 @@
 			background-color: rgb(255,249,201);
 			overflow:auto;
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:16px ; 
 		}
 
 
@@ -233,17 +233,30 @@
 
 
 		/*overflow*/
-		.texte{
-			resize: none;
-			width:330px;
-			height:90px;
+		.col1{
+			position: relative;
+			resize: vertical;
+			float:left;
+			width:159px;
+			height:auto;
 			margin-top:30px;
 			margin-left: 30px;
 			border: 1px solid;
-			-moz-column-width: 130px;
-    		-webkit-column-width: 130px;
-    		-moz-column-rule: none;
-    		-webkit-column-rule: none;
+    		background-color: rgb(255,249,201);
+    		font-family:"FestivalMediatheque";
+			font-size: 12px;
+			line-height: 20px;
+
+		}
+		.col2{
+			position: relative;
+			resize: vertical;
+			float:left;
+			width:159px;
+			height:auto;
+			margin-top:30px;
+			margin-left: 10px;
+			border: 1px solid;
     		background-color: rgb(255,249,201);
     		font-family:"FestivalMediatheque";
 			font-size: 12px;
@@ -251,39 +264,8 @@
 
 		}
 
-		#mainpipe{
-			/*display: none;*/
-			width:170px;
-			height: auto;
-			margin-left:30px;
-			float:left;
-			font-family:"FestivalMediatheque";
-			font-size: 12px;
-			line-height: 1em;
-			background-color: red;
-			white-space: pre-wrap;
-			word-wrap:break-word;
-			word-break:keep-all ;
-		}
-
-		#runoff{
-			/*display: none;*/
-			width:130px;
-			height: auto;
-			margin-left:40px;
-			float:left;
-			font-family:"FestivalMediatheque";
-			font-size: 12px;
-			line-height: 1em;
-			background-color: blue;
-			white-space: pre-wrap;
-			word-wrap:break-word;
-			word-break:keep-all ;
-		}
-
-
-
 		#informations{ 
+
 			resize:vertical;
 			width: 330px;
 			height:auto;
@@ -292,12 +274,13 @@
 			background-color: rgb(255,249,201);
 		}
 
-		#resume{ 
+		#resume{
+			float: left; 
 			resize:vertical;
 			border: 1px solid;
 			width: 330px;
 			height:auto;
-			margin-top:10px; /*??????????*/
+			margin-top:30px; /*??????????*/
 			margin-left: 30px;
 			
 			background-color: rgb(255,249,201);
@@ -401,7 +384,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px;
+			font-size:14px ;
 		}
 
 		#informations2_gauche2{
@@ -414,7 +397,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 
 		}
 
@@ -428,7 +411,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 
 		}
 
@@ -442,7 +425,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 
 		}
 
@@ -457,7 +440,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 		}
 
 
@@ -471,7 +454,7 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 
 		}
 
@@ -485,14 +468,15 @@
 			background-color: rgb(255,249,201);
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 9px; 
+			font-size:14px ; 
 
 		}
 
 		#informations2{ 
 			resize:vertical;
+			float: left;
 			width: 330px;
-			margin-top:30px;
+			margin-top:40px;
 			margin-left: 30px;
 			background-color: rgb(255,249,201);
 		}
@@ -506,43 +490,22 @@
 			border: 1px solid;
 			width: 713px;
 			height:auto;
-			margin-top:70px; /*?*/
+			margin-top:40px; /*?*/
 			margin-left: 30px;
 			padding-bottom:10px;
 			background-color: rgb(255,249,201);
 			font-family:"FestivalMediatheque";
-			font-size: 16px; 
+			font-size: 14px; 
 		}
 
 
 		#mainpipe2{
-			/*display: none;*/
-			width:340px;
-			height: auto;
-			margin-left:30px;
-			float:left;
-			font-family:"FestivalMediatheque";
-			font-size: 16px;
-			line-height: 1.5em;
-			background-color: red;
-			white-space: pre-wrap;
-			word-wrap:break-word;
-			word-break:keep-all ;
+			display: none;
+;
 		}
 
 		#runoff2{
-			/*display: none;*/
-			width:340px;
-			height: auto;
-			margin-left:20px;
-			float:left;
-			font-family:"FestivalMediatheque";
-			font-size: 16px;
-			line-height: 1.5em;
-			background-color: blue;
-			white-space: pre-wrap;
-			word-wrap:break-word;
-			word-break:keep-all ;
+			display: none;
 		}
 
 		#page2{
@@ -756,22 +719,33 @@
 			text-align: right;
 		}
 
-		#texte4{ 
-			/*-webkit-columns: 2;
-			columns: 2;
-			column-gap:5rem;*/
-			resize:vertical;
+		.texte4{ 
+			-moz-column-width: 300px;
+    		-webkit-column-width: 300px;
+    		-moz-column-rule: none;
+    		-webkit-column-rule: none;
+    		float:left;
+			resize:none;
 			border: 1px solid;
 			width: 700px;
 			height:auto;
 			margin-top:30px;
 			margin-left: 30px;
+			padding-bottom:10px;
 			background-color: rgb(170,225,247);
-			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
 			font-size: 16px; 
-			float:left;
 		}
+
+
+		#mainpipe3{
+			display: none;
+		}
+
+		#runoff3{
+			display: none;
+		}
+
 
 		#page4{
 			width:783px;
@@ -838,17 +812,32 @@
 			font-size: 43px;
 		}
 
-		#texte6{ 
-			resize:vertical;
+		.texte5{ 
+			-moz-column-count: 2;
+       		-moz-column-gap: 20px;
+      		-webkit-column-count: 2;
+       		-webkit-column-gap: 20px;
+    		-moz-column-rule: none;
+    		-webkit-column-rule: none;
+    		float:left;
+			resize:none;
 			border: 1px solid;
 			width: 700px;
 			height:auto;
 			margin-top:30px;
 			margin-left: 30px;
 			padding-bottom:10px;
-			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
 			font-size: 16px; 
+		}
+
+
+		#mainpipe4{
+			display: none;
+		}
+
+		#runoff4{
+			display: none;
 		}
 
 		#page6{

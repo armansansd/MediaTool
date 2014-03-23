@@ -137,40 +137,31 @@
 */
 
 		/*overflow*/
-		.texte{
-			display:none;
-
-		}
-
-		#mainpipe{
-			/*display: none;*/
-			word-break:keep-all ;
-			width:400px;
-			height: auto;
-			margin-left: 70px;
-			margin-top:80px;
-			float:left;font-family:"FestivalMediatheque";
-			font-size: 36px;
-			line-height: 1.5em;
-			background-color: red;
-			white-space: pre-wrap;
-			word-wrap:break-word;
-			
-		}
-
-		#runoff{
-			/*display: none;*/
-			width:400px;
-			height: auto;
-			margin-left:100px;
-			margin-top:80px;
+		.col1{
+			position: relative;
+			resize: vertical;
 			float:left;
+			width:400px;
+			height:auto;
+			margin-top:50px;
+			margin-left: 60px;
+			font-size: 32px; 
+			line-height: 50px;
 			font-family:"FestivalMediatheque";
-			font-size: 36px;
-			line-height: 1.5em;
-			background-color: blue;
-			white-space: pre-wrap;
-			word-wrap:break-word;
+
+		}
+		.col2{
+			position: relative;
+			resize: vertical;
+			float:left;
+			width:400px;
+			height:auto;
+			margin-top:50px;
+			margin-left: 60px;
+			font-size: 32px; 
+			line-height: 50px;
+			font-family:"FestivalMediatheque";
+
 		}
 	
 
@@ -182,10 +173,11 @@
 			border: none;
 			width: 990px;
 			height:auto;
-			margin-top:170px;
+			margin-top:50px;
 			margin-left: 60px;
 			font-family:"FestivalMediatheque";
-			font-size: 48px; 
+			font-size: 32px; 
+			line-height: 1.4em;
 		}
 
 		#imprimer{

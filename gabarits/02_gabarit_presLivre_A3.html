@@ -16,8 +16,8 @@
 					function copy_to_print_helper(){
 						$('#mainpipe2').text($('.texte2').val());
 
-						var partOne = $('#mainpipe2').text().substring(0, 350);
-						var partTwo = $('#mainpipe2').text().substring(350, $('#mainpipe2').text().length - 0);
+						var partOne = $('#mainpipe2').text().substring(0, 500);
+						var partTwo = $('#mainpipe2').text().substring(500, $('#mainpipe2').text().length - 0);
 						$('#mainpipe2').html(partOne);
 						$('#runoff2').html(partTwo );
 					}
@@ -46,11 +46,11 @@
 					<DIV id="informations2_gauche3" rows=1><span contenteditable="true">nombre de pages</span></DIV>
 					<DIV id="informations2_droite3" rows=1><span contenteditable="true">étage</span></DIV>
 					<DIV id="informations2_gauche4" rows=1><span contenteditable="true">n°ISBN</span></DIV>
-				</div><br>
+				</div></br>
 				<!-- <DIV id="resume2" rows=1><span contenteditable="true">Éventuel résumé ou commentaire</span></DIV> -->
-				<textarea class="texte2">Éventuel résumé ou commentaire</textarea><br>
-				<div id="mainpipe2"></div>
-				<div id="runoff2"></div>
+				<textarea class="texte2">Éventuel résumé ou commentaire</textarea>
+					<div id="mainpipe2"></div>
+					<div id="runoff2"></div>
 			</div>
 			<div id="imprimer"><a href="#" onclick="printFrame()"><img src="../img/imprimer.jpg" onmouseover="src='../img/imprimer.gif'" onmouseout="src='../img/imprimer.jpg'"/></a><br/>
 				Imprimer

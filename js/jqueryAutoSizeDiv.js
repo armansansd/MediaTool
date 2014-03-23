@@ -62,7 +62,7 @@
 		
 		$(function(){
 				$('.titre6').autosize();
-				$('.texte6').autosize();
+				$('.texte5').autosize();
 			});
 
 

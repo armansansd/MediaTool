@@ -8,6 +8,28 @@
 	<script type="text/javascript" src="../js/jqueryAutoSizeDiv.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/02_css_gabarit.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="../css/01_cssPrintA3.css" media="print"/>
+	<script type="text/javascript">
+
+		$(window).load(function(){
+					
+					//copie du contenu
+					function copy_to_print_helper(){
+						$('#mainpipe4').text($('.texte5').val());
+
+						var partOne = $('#mainpipe4').text().substring(0, 700);
+						var partTwo = $('#mainpipe4').text().substring(700, $('#mainpipe4').text().length - 0);
+						$('#mainpipe4').html(partOne);
+						$('#runoff4').html(partTwo );
+					}
+
+					$('.texte5').bind('keydown keyup keypress cut copy past blur change', function(){
+						copy_to_print_helper(); // consider debouncing this to avoid slowdowns!
+					});
+					copy_to_print_helper(); // on initial page load
+					
+				});
+
+	</script>
 	
 	</head>
 	
@@ -15,7 +37,9 @@
 		<div id="zone">
 			<div id="page6">
 				<div id="titre6" rows=1><span contenteditable="true">Titre</span></div>
-				<div id="texte6" rows=1><span contenteditable="true">Informations.</span></div>
+				<textarea class="texte5" >Informations</textarea> 
+				<div id="mainpipe4"></div>
+				<div id="runoff4"></div> 
 			</div>
 			
 			<div id="imprimer"><a href="#" onclick="printFrame()"><img src="../img/imprimer.jpg" onmouseover="src='../img/imprimer.gif'" onmouseout="src='../img/imprimer.jpg'"/></a><br/>
