@@ -56,87 +56,7 @@
 			font-family:"AcademySans-Bold";
 			font-size: 130px; 
 		}
-/*
-		#informations_gauche1 {
-			float:left;
-			position: relative;
-			border: none;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
 
-
-		#informations_gauche2 {
-			 float:left;
-			position: relative;
-			border: none;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
-
-		#informations_gauche3 {
-			float:left;
-			position: relative;
-			border: none;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
-
-		#informations_gauche4 {
-			float:left;
-			position: relative;
-			border: none;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px;
-		}
-
-		#informations_droite1 {
-			float:right;
-			border: none;
-			position: relative;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
-
-		#informations_droite2 {
-			float:right;
-			border: none;
-			position: relative;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
-
-		#informations_droite3 {
-			float:right;
-			border: none;
-			position: relative;
-			width: 45%;
-			height:auto;
-			overflow:auto;
-			font-family:"FestivalMediatheque";
-			font-size: 28px; 
-		}
-*/
-
-		/*overflow*/
 		.col1{
 			position: relative;
 			resize: vertical;
@@ -228,7 +148,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:120px;
+			margin-top:15px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -243,7 +163,7 @@
 			border: none;
 			width: 990px;
 			height:auto;
-			margin-top:90px;
+			margin-top:5px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -258,7 +178,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:90px;
+			margin-top:5px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -274,7 +194,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:90px;
+			margin-top:5px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -289,7 +209,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:90px;
+			margin-top:5px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -303,7 +223,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:90px;
+			margin-top:5px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -331,7 +251,7 @@
 			border: none;
 			width: 990px;
 			height:auto;
-			margin-top:120px;
+			margin-top:70px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"AcademySans-Bold";
@@ -345,7 +265,7 @@
 			/*border: 1px solid;*/
 			width: 990px;
 			height:auto;
-			margin-top:93px;
+			margin-top:50px;
 			margin-left: 60px;
 			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";

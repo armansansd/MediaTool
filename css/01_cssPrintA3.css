@@ -70,88 +70,40 @@
 			font-size: 92px; 
 		}
 
-		#informations2_gauche1 {
+	/*	#informations2_gauche1 {
 			resize:vertical;
 			float:left;
 			position: relative;
 			border: none;
 			width: 48%;
 			height:auto;
-			/*overflow:auto;*/
+			overflow:auto;
 			font-family:"FestivalMediatheque";
 			font-size: 21px; 
-		}
+		}*/
 
-		#informations2_gauche2 {
-			resize:vertical;
+		.col11{
+			position: relative;
 			float: left;
-			position: relative;
-			border: none;
-			width: 48%;
+			resize: vertical;
+			width:48%;
 			height:auto;
-			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 21px; 
-		}
+			font-size: 21px;
+			line-height: 32px;
 
-		#informations2_gauche3 {
-			resize:vertical;
+		}
+		.col21{
+			position: relative;
+			resize: vertical;
 			float: left;
-			position: relative;
-			border: none;
-			width: 48%;
+			margin-left: 10px;
+			width:48%;
 			height:auto;
-			/*overflow:auto;*/
 			font-family:"FestivalMediatheque";
-			font-size: 21px; 
-		}
+			font-size: 21px;
+			line-height: 32px;
 
-		#informations2_gauche4 {
-			resize:vertical;
-			float: left;
-			position: relative;
-			border: none;
-			width: 48%;
-			height:auto;
-			/*overflow:auto;*/
-			font-family:"FestivalMediatheque";
-			font-size: 21px; 
-		}
-
-		#informations2_droite1 {
-			float: right; 			
-			resize:vertical;
-			position: relative;
-			border: none;
-			width: 48%;
-			height:auto;
-			/*overflow:auto;*/
-			font-family:"FestivalMediatheque";
-			font-size: 21px; 
-		}
-
-		#informations2_droite2 {
-			resize:vertical;
-			float: right;
-			position: relative;
-			border: none;
-			width: 48%;
-			height:auto;
-			/*overflow:auto;*/
-			font-family:"FestivalMediatheque";
-			font-size: 21px; 
-		}
-
-		#informations2_droite3 {
-			resize:vertical;
-			float: right;
-			position: relative;
-			border: none;
-			width: 48%;
-			height:auto;
-			/*overflow:auto;*/
-			font-family:"FestivalMediatheque";
-			font-size: 21px; 
 		}
 
 		#informations2{ 
@@ -162,13 +114,14 @@
 			margin-left: 43px;
 		}
 
+
 		.texte2{ 
 			display: none;
 		}
 
 		#mainpipe2{
 			/*display: none;*/
-			width:550px;
+			width:720px;
 			height: auto;
 			float:left;
 			margin-left: 45px;
@@ -183,7 +136,7 @@
 		#runoff2{
 			/*display: none;*/
 			float:left;
-			width:550px;
+			width:720px;
 			max-height: 320px;
 			margin-left: 1.5em;
 			font-family:"FestivalMediatheque";
@@ -208,6 +161,13 @@
 
 
 /* Event A3 */
+		#gauche{
+				float:left;
+		}
+
+		#droite{
+				float:right;
+		}
 
 		#type4{
 			width: 712px;
@@ -244,7 +204,7 @@
 			width: 712px;
 			height:auto;
 			margin-top:43px;
-			margin-left: 43px;
+			margin-right: 43px;
 			font-family:"AcademySans-Bold";
 			font-size: 92px;
 		}
@@ -254,7 +214,7 @@
 			width: 712px;
 			height:auto;
 			margin-top:43px;
-			margin-left: 43px;
+			margin-right: 43px;
 			font-family:"AcademySans-Bold";
 			font-size: 92px; 
 		}
@@ -264,7 +224,7 @@
 			width: 712px;
 			height:auto;
 			margin-top:43px;
-			margin-left: 43px;
+			margin-right: 43px;
 			font-family:"AcademySans-Bold";
 			font-size: 92px; 
 		}
@@ -274,8 +234,8 @@
 		}
 
 		#mainpipe3{
-		
-			width:550px;
+			width:725px;
+			margin-top:43px;
 			height: auto;
 			float:left;
 			margin-left: 45px;
@@ -288,10 +248,10 @@
 		}
 
 		#runoff3{
-		
 			float:left;
-			width:550px;
+			width:725px;
 			max-height: 320px;
+			margin-top:43px;
 			margin-left: 1.5em;
 			font-family:"FestivalMediatheque";
 			font-size: 21px;
@@ -303,7 +263,8 @@
 		}
 
 		#page4{
-			width:1677px;
+			/*width:1677px;*/
+			width:1577px;
 			height:1175px;
 			border-style:none;
 			margin-bottom: 43px;
@@ -328,14 +289,13 @@
 		}
 
 		#mainpipe4{
-			/*display: none;*/
-			width:550px;
-			height: auto;
 			float:left;
-			margin-top: 40px;
+			width:725px;
+			height: auto;			
+			margin-top: 30px;
 			margin-left: 45px;
 			font-family:"FestivalMediatheque";
-			font-size: 21px;
+			font-size: 26px;
 			line-height: 1.5em;
 			white-space: pre-wrap;
 			word-wrap:break-word;
@@ -343,14 +303,13 @@
 		}
 
 		#runoff4{
-			/*display: none;*/
 			float:left;
-			width:550px;
+			width:725px;
 			max-height: 500px;
-			margin-top: 50px;
+			margin-top: 30px;
 			margin-left: 1.5em;
 			font-family:"FestivalMediatheque";
-			font-size: 21px;
+			font-size: 26px;
 			line-height: 1.5em;
 			white-space: pre-wrap;
 			word-wrap:break-word;
